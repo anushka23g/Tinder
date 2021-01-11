@@ -1,2 +1,3 @@
 # Tinder
-Created with CodeSandbox
+
+Made using React and Material-UI
