@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+
 import "./SwipeButtons.css";
 
 import ReplayIcon from '@material-ui/icons/Replay';
@@ -10,7 +10,7 @@ import FlashOnIcon from '@material-ui/icons/FlashOn';
 import IconButton from '@material-ui/core/IconButton';
 
 export default function SwipeButtons() {
-return 
+return (
   <div className="swipeButtons">
 <IconButton className="swipeButtons__repeat" > <ReplayIcon fontSize="large" /> </IconButton>
 
@@ -18,9 +18,7 @@ return
 <IconButton className="swipeButtons_star" >  <StarRateIcon fontSize="large" />  </IconButton>
 <IconButton className="swipeButtons_right" > <FavoriteIcon fontSize="large" />  </IconButton>
 <IconButton className="swipeButtons_lightning" > <FlashOnIcon fontSize="large" />  </IconButton>
-
-
-  </div>;
+</div>);
 
 
 }
